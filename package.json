@@ -1,0 +1,18 @@
+{
+  "name": "trevita-technologies-website",
+  "version": "1.0.0",
+  "description": "Minimal, high-fidelity premium landing page for Trevita Technologies",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server -p 3000 -o"
+  },
+  "keywords": [
+    "trevita",
+    "cloud",
+    "ai",
+    "consulting",
+    "website"
+  ],
+  "author": "Trevita Technologies",
+  "license": "ISC"
+}
