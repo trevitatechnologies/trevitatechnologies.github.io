@@ -271,6 +271,20 @@
             </div>
 
             <div class="form-group">
+              <label for="form-phone" class="form-label">Mobile Number</label>
+              <div style="display: flex; gap: 0.5rem;">
+                <select id="form-country-code" class="form-input" style="width: auto; min-width: 100px; padding-right: 2rem; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22%2394a3b8%22 height=%2224%22 viewBox=%220 0 24 24%22 width=%2224%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M7 10l5 5 5-5z%22/></svg>'); background-repeat: no-repeat; background-position: right 0.5rem center;">
+                  <option value="+1" selected>+1 (US)</option>
+                  <option value="+44">+44 (UK)</option>
+                  <option value="+61">+61 (AU)</option>
+                  <option value="+91">+91 (IN)</option>
+                  <option value="+49">+49 (DE)</option>
+                </select>
+                <input type="tel" id="form-phone" class="form-input" placeholder="Phone Number" required style="flex-grow: 1;">
+              </div>
+            </div>
+
+            <div class="form-group">
               <label for="form-company" class="form-label">Company / Organization</label>
               <input type="text" id="form-company" class="form-input" placeholder="Company name">
             </div>

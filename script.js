@@ -235,6 +235,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Extract form data
       const name = document.getElementById('form-name').value;
       const email = document.getElementById('form-email').value;
+      const countryCode = document.getElementById('form-country-code').value;
+      const phone = document.getElementById('form-phone').value;
       const company = document.getElementById('form-company').value;
       const interest = document.getElementById('form-interest').value;
       const message = document.getElementById('form-message').value;
@@ -242,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const payload = {
         name: name,
         email: email,
+        phone: `${countryCode} ${phone}`,
         company: company,
         interest: interest,
         message: message,
